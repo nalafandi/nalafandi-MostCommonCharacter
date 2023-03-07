@@ -18,7 +18,7 @@ public class MostCommonCharacter {
                 int old = hm.get(ch);
                 int now = old + 1;
                 hm.put(ch, now);
-            } else {  //3
+            } else {  
                 hm.put(ch, 1);
             }
         }
