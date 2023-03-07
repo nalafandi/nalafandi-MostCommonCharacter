@@ -28,7 +28,6 @@ public class MostCommonCharacter {
         for (Character key : hm.keySet()) {
             if (hm.get(key) > hm.get(max))
             max = key;
-
         }
         return max;
     }
